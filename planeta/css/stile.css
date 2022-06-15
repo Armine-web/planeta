@@ -188,7 +188,6 @@ button{
     border: none;
 	color: inherit;
     outline: inherit;
-    border: none;
 }
 
 .learnMore{
@@ -262,3 +261,25 @@ a:hover{
     background-color: #1E272E;
 }
 
+
+
+#more{
+    display: none;
+}
+button:active, button:focus {
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+
+.showMore{
+    width: 143px;
+    height: 31px;
+    text-align: center;
+    color: #F6F6F6;
+    font-family: Orbitron;
+    font-size: 14px;
+    border: none;
+    background-size: cover;
+}
