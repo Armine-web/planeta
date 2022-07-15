@@ -78,6 +78,11 @@
     top:  10px;
     right: 28px;
 }
+#myNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
 .upcoming{
     color: #ccc8c8;
     font-family: Kiona;
@@ -102,7 +107,11 @@
 .menuBorder:focus,
 .menuBorder:active
 {
+<<<<<<< Updated upstream
     width: 238px;
+=======
+    width: 160px;
+>>>>>>> Stashed changes
     background-color: #2c2f31;
     border-bottom: 1px solid #A3A3A3;
     border-top: 1px solid #A3A3A3;
@@ -110,12 +119,22 @@
     height: 30px;
     padding: 7px 
 }
+<<<<<<< Updated upstream
 .upcomingMenu{
     margin-right: 100px;
 }
 .menuBorder{
     margin-right: 100px; 
 }
+=======
+.upcomingMenugrow{
+    flex-grow: 7;
+}
+.menuBordergrow{
+    flex-grow: 1;
+}
+
+>>>>>>> Stashed changes
 .upcomingMenu:hover,
 .upcomingMenu:focus,
 .upcomingMenu:active
@@ -128,21 +147,50 @@
     height: 30px;
     padding: 7px 
 }
+<<<<<<< Updated upstream
 .submenudiv{
     
     border-bottom: 1px solid #A3A3A3;
 }
 .submenuBorder{
     width: 238px;
+=======
+.submenudivupcoming{
+    width: 238px;
+
+}
+.submenudiv{
+    border-bottom: 1px solid #A3A3A3;
+    transition: none;
+}
+.submenuBorder{
+>>>>>>> Stashed changes
     background-color: #2c2f31;
     border-bottom: 1px solid #A3A3A3;
     box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
     height: 30px;
     padding: 7px;
 }
+<<<<<<< Updated upstream
 .submenu{   
     display: block; 
     color: #F6F6F6;
+=======
+
+.upcomingMenu{
+    z-index: 900;
+}
+.menuBorder{
+    z-index: 800;
+}
+.sortByMenu{
+    z-index: 700;
+}
+
+.submenu{   
+    display: block; 
+    color: #d3d0d0;
+>>>>>>> Stashed changes
     font-family: Kiona;
     font-size: 14px;
     font-weight: 400;
@@ -162,7 +210,7 @@
     text-transform: uppercase;   
 }
 .ToDay{
-    color: #F6F6F6;
+    color: #ccc8c8;
     font-family: Kiona;
     font-size: 14px;
     font-weight: 400;
@@ -294,9 +342,42 @@ a, button{
 a:hover,
 a:active{
     background: none;
+<<<<<<< Updated upstream
     color: #F6F6F6;
     text-decoration: none;
+=======
+    color: #fffefe;
+    text-decoration: none;
 }
+.myNavbar{
+    width: 98%;
+>>>>>>> Stashed changes
+}
+
+@media only screen and (max-width: 989px){
+    .submenudiv,
+    .upcomingMenu,
+    .upcomingMenu:hover,
+    .upcomingMenu:active,
+    .upcomingMenu:focus, 
+    .menuBorder, 
+    .menuBorder:hover, 
+    .menuBorder:active, 
+    .menuBorder:focus{
+        width: 238px;
+        background-color: #2c2f31;
+        border: 1px solid #A3A3A3;
+        border-top: 1px solid #A3A3A3;
+        box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+        height: 30px;
+        padding-left: 10px;
+        padding-top: 2px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+
 
 
 
