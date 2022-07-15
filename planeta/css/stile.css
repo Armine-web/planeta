@@ -68,7 +68,7 @@
     right: 0;
 }
 .quest{
-    color: #F6F6F6;
+    color: #ccc8c8;
     font-family: Orbitron;
     font-size: 14px;
     font-style: bold;
@@ -79,32 +79,69 @@
     right: 28px;
 }
 .upcoming{
-    color: #F6F6F6;
+    color: #ccc8c8;
     font-family: Kiona;
     font-size: 14px;
     font-weight: 400;
     Line-height: 14px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
     text-transform: uppercase;   
 }
 .typeIvent{
-    color: #F6F6F6;
+    color: #ccc8c8;
     font-family: Kiona;
     font-size: 14px;
     font-weight: 400;
     Line-height: 14px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
     text-transform: uppercase;   
 }
-.submenudiv{
+.menuBorder:hover,
+.menuBorder:focus,
+.menuBorder:active
+{
+    width: 238px;
     background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    border-top: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px 
 }
-.submenu{    
-    border: #b3b6b8;
+.upcomingMenu{
+    margin-right: 100px;
+}
+.menuBorder{
+    margin-right: 100px; 
+}
+.upcomingMenu:hover,
+.upcomingMenu:focus,
+.upcomingMenu:active
+{
+    width: 238px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    border-top: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px 
+}
+.submenudiv{
+    
+    border-bottom: 1px solid #A3A3A3;
+}
+.submenuBorder{
+    width: 238px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px;
+}
+.submenu{   
+    display: block; 
     color: #F6F6F6;
     font-family: Kiona;
     font-size: 14px;
@@ -112,18 +149,16 @@
     Line-height: 14px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
     text-transform: uppercase;   
 }
 .sortBy{
-    color: #F6F6F6;
+    color: #ccc8c8;
     font-family: Kiona;
     font-size: 14px;
     font-weight: 400;
     Line-height: 14px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
     text-transform: uppercase;   
 }
 .ToDay{
@@ -134,7 +169,6 @@
     Line-height: 14px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
     text-transform: uppercase;   
 }
 .fa-solid {
@@ -257,9 +291,14 @@ a, button{
 .btnDisord{
     margin-left: 10px;
 }
-a:hover{
-    background-color: #1E272E;
+a:hover,
+a:active{
+    background: none;
+    color: #F6F6F6;
+    text-decoration: none;
 }
+
+
 
 
 
