@@ -1,0 +1,396 @@
+.bg {
+    max-width: 1600px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.lang-link{
+    color:  #A3A3A3;
+    line-height: 17px;
+    font-family: Orbitron;
+    line-height: 120%;
+    font-size: 14px;
+    align-items: left;
+    text-transform: uppercase;
+}
+
+.officialSite{
+    color:  #F6F6F6;
+    font-family: Orbitron;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 17px;
+    line-height: 120%;
+    font-size: 14px;
+}
+.planetQuestEents{
+    color:  #FFFFFF;
+    font-family: Orbitron;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 48px;
+    line-height: 100%;
+    font-size: 38px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.welcome{
+    color: #A3A3A3;
+    font-family: Kiona;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+.opasityBg{
+    opacity: 0.6;
+}
+.smallapasityBg{
+    max-width: 30px;
+    color: #FFFFFF;
+}
+.cardBg{
+    background-color: #1E272E;
+    max-width: 348px;    
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top:  0;
+    right: 0;
+}
+.quest{
+    color: #ccc8c8;
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: bold;
+    Line-height: 16px;
+    line-height: 120%;
+    position: absolute;
+    top:  10px;
+    right: 28px;
+}
+#myNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.upcoming{
+    color: #ccc8c8;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 14px;
+    line-height: 120%;
+    text-align: Left;
+    text-transform: uppercase;   
+}
+.typeIvent{
+    color: #ccc8c8;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 14px;
+    line-height: 120%;
+    text-align: Left;
+    text-transform: uppercase;   
+}
+.menuBorder:hover,
+.menuBorder:focus,
+.menuBorder:active
+{
+    width: 238px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    border-top: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px; 
+}
+.upcomingMenugrow{
+    flex-grow: 12;
+}
+.typeIventMenugrow{
+    flex-grow: 2;
+}
+.sortByMenugrow{
+    flex-grow: 1;
+}
+.upcomingMenu:hover,
+.upcomingMenu:focus,
+.upcomingMenu:active
+{
+    width: 238px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    border-top: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px;
+}
+.upcomingMenu{
+    z-index: 3;
+}
+.typeIventMenu{
+    z-index: 2;
+}
+.sortByMenu{
+    z-index: 1;
+}
+.submenudiv{
+    
+    border-bottom: 1px solid #A3A3A3;
+}
+.submenuBorderupcoming{
+    width: 238px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px;
+}
+.submenuBorder{
+    width: 160px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px;
+}
+.menuBorder:hover,
+.menuBorder:focus,
+.menuBorder:active
+{
+    width: 160px;
+    background-color: #2c2f31;
+    border-bottom: 1px solid #A3A3A3;
+    border-top: 1px solid #A3A3A3;
+    box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+    height: 30px;
+    padding: 7px;
+}
+.submenu{   
+    display: block; 
+    color: #ccc8c8;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 14px;
+    line-height: 120%;
+    text-align: Left;
+    text-transform: uppercase;   
+}
+.sortBy{
+    color: #ccc8c8;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 14px;
+    line-height: 120%;
+    text-align: Left;
+    text-transform: uppercase;   
+}
+.ToDay{
+    color: #ccc8c8;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 14px;
+    line-height: 120%;
+    text-align: Left;
+    text-transform: uppercase;   
+}
+.fa-solid {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #F6F6F6;
+  }
+.data{
+    color: #F6F6F6;
+    font-size: 13px;
+    font-family: Kiona;
+    line-height: 100%;
+    text-align: left;
+}
+.calendar{
+    font-size: 14px;
+    color: #F6F6F6; 
+}
+.planetQuest{
+    color:  #FFFFFF;
+    font-family: Orbitron;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: left;
+   
+}
+.thePlanet{
+    color: #A3A3A3;
+    font-family: Kiona;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 17px;
+    line-height: 120%;
+    text-align: Left;
+    vertical-align: top;
+    text-transform: uppercase; 
+}
+.learnMoreBtn{
+    max-width: 300px;   
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button{    
+    background: none;
+    border: none;
+	color: inherit;
+    outline: inherit;
+}
+
+.learnMore{
+    color: #F6F6F6;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: Orbitron;
+    text-transform: uppercase;
+}
+.orText{
+    color: #FFFFFF;
+    font-family: Kiona;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.modalWith{
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 890px;
+}
+
+.childModal{
+    position: absolute;
+    top:  20px;
+    right: 40px;
+}
+.modalBg{
+    max-width: 890px;
+    background-color: black;  
+}
+.dataModal{
+    color: #F6F6F6;
+    font-size: 13px;
+    font-family: Kiona;
+    line-height: 100%;
+}
+.notificationParent{
+    position: relative;
+}
+.notifikationChild{
+    position: absolute;
+    top:  8px;
+    right:  35px;
+}
+a, button{
+    all: unset;
+}
+.notificationLinc{
+    color:  #FFFFFF;
+    font-family: Orbitron;
+    font-size: 13px;
+    line-height: 16px;
+}
+.buttonDiscord{
+    width: 300px;
+    height: 48px;
+    background-repeat: no-repeat;
+
+}
+.buttonDiscord{
+    color: #F6F6F6;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: Orbitron;
+    text-transform: uppercase;
+}
+.btnDisord{
+    margin-left: 10px;
+}
+a:hover,
+a:active{
+    background: none;
+    color: hsl(0, 0%, 96%);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 989px){
+    .submenuBorder,
+    .upcomingMenu,
+    .upcomingMenu:hover,
+    .upcomingMenu:active,
+    .upcomingMenu:focus, 
+    .menuBorder, 
+    .menuBorder:hover, 
+    .menuBorder:active, 
+    .menuBorder:focus{
+        width: 238px;
+        background-color: #2c2f31;
+        border: 1px solid #A3A3A3;
+        border-top: 1px solid #A3A3A3;
+        box-shadow: 0 0 22px rgba(104, 104, 104, 0.5);
+        height: 30px;
+    }
+    .menuBorder,
+    .upcomingMenu{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        margin: 0, auto;
+    }
+    
+
+.hederPng{
+    z-index: -1;
+}
+.planetQuestEents{
+    text-align: center;
+}
+
+}
+
+
+
+
+
+#more{
+    display: none;
+}
+button:active, button:focus {
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+
+.showMore{
+    width: 143px;
+    height: 31px;
+    text-align: center;
+    color: #F6F6F6;
+    font-family: Orbitron;
+    font-size: 14px;
+    border: none;
+    background-size: cover;
+}
