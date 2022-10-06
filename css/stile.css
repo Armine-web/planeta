@@ -117,6 +117,7 @@ img, svg{
 }
 .cardBg{
     background-color: #1E272E;
+    min-width: 290px;
     max-width: 348px;    
 }
 .parent{
@@ -405,7 +406,8 @@ a:active{
     .menuBorder:hover, 
     .menuBorder:active, 
     .menuBorder:focus{
-        width: 238px;
+        max-width: 238px;
+        min-width: 238px;
         background-color: #2c2f31;
         border: 1px solid #A3A3A3;
         border-top: 1px solid #A3A3A3;
@@ -419,15 +421,28 @@ a:active{
         padding-left: 10px;
         margin: 0, auto;
     }
-    
+    .smallapasityBg{
+        display: none;
+    }
+    .myNavbar{
+        display: flex;
+        justify-content: center;
+       
+    }
 
 .hederPng{
     z-index: -1;
 }
 .planetQuestEents{
     text-align: center;
+    font-size: 30px;
 }
 
+}
+@media only screen and (max-width: 350px){
+    .opasityBg{
+        background: none !important;
+    }
 }
 
 
