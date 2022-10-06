@@ -1,3 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+  list-style: none;
+}
+
+input:focus, 
+input:active, 
+button:focus, 
+button:active{
+    outline: none;
+}
+input{
+    border: none;
+}
+input::-ms-clear{
+  display: none;
+}
+input, textarea, button, select{
+  font-family: inherit;
+  font-size: inherit;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label, button, a{
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+img, svg{
+  max-width: 100%;
+  height: auto;
+  object-fit: none;
+}
 .bg {
     max-width: 1600px;
     height: 100%;
